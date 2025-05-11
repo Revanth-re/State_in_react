@@ -585,5 +585,11 @@ h1 {
     }
 }
 h1{
+
   text-align: center;
+}
+@media (max-width:768px) {
+  h1{
+  font-size: 1.6rem;
+  }
 }

@@ -17,7 +17,7 @@ export default class ThemeToggle extends Component {
   <div
     className="theme-box"
     style={{
-      backgroundColor: this.state.theme ? "coral" : "white",
+      backgroundColor: this.state.theme ? "black" : "white",
       color: this.state.theme ? "white" : "black",
     }}
   >
