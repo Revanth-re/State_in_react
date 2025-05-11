@@ -13,12 +13,21 @@ export default class ThemeToggle extends Component {
   }
   render() {
     return (
-      <div >
-<div style={{backgroundColor:this.state.theme?"coral":"white",padding:"10%"}}>
-        <h1 style={{color:this.state.theme?"white":"black"}}>Hello</h1>
-        </div>
-        <button onClick={this.handleTheme}>{this.state.theme?<IoMdSunny/>:<FaMoon/>}</button>
-      </div>
+    <div className="theme-wrapper">
+  <div
+    className="theme-box"
+    style={{
+      backgroundColor: this.state.theme ? "coral" : "white",
+      color: this.state.theme ? "white" : "black",
+    }}
+  >
+    <h1>Hello</h1>
+  </div>
+  <button className="theme-toggle-button" onClick={this.handleTheme}>
+    {this.state.theme ? <IoMdSunny /> : <FaMoon />}
+  </button>
+</div>
+
     )
   }
 }

@@ -114,3 +114,476 @@ button:focus {
 .form-container .secondary-btn:hover {
   background-color: #ddd;
 }
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  transition: background-color 0.5s ease;
+  color: white;
+  text-align: center;
+}
+
+.quote-text {
+  font-size: 1.8rem;
+  font-weight: 500;
+  max-width: 800px;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.quote-btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.quote-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f0f0;
+  transition: background-color 0.5s ease;
+}
+
+.theme-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.theme-box {
+  padding: 10%;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 20px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.theme-box h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.theme-toggle-button {
+  margin-top: 2rem;
+  background-color: transparent;
+  border: 2px solid #444;
+  border-radius: 50%;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle-button:hover {
+  background-color: #444;
+  color: white;
+}
+/* Header styles */
+
+.header-container {
+  margin: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightblue;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.header-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #003366;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #003366;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-buttons button:hover {
+  background-color: #00509e;
+}
+/* Form container styles */
+.form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #f4f4f4;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Headings */
+.form-container h1,
+.form-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Input fields */
+.form-container input {
+  width: 90%;
+  padding: 12px 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border 0.3s;
+}
+
+.form-container input:focus {
+  border-color: #0077cc;
+  outline: none;
+}
+
+/* Primary button (Signup/Login) */
+.primary-btn {
+  background-color: #0077cc;
+  color: white;
+  padding: 12px 25px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+  background-color: #005fa3;
+}
+
+/* Switch toggle button */
+.form-container > div > button {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid #0077cc;
+  color: #0077cc;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.form-container > div > button:hover {
+  background-color: #0077cc;
+  color: white;
+}
+
+
+.signup-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #f2f6fc;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.input-field {
+  width: 90%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #007acc;
+  outline: none;
+}
+
+.signup-button {
+  margin-top: 15px;
+  background-color: #007acc;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-button:hover {
+  background-color: #005fa3;
+}
+.quotes-container {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #f7f9fc;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quotes-heading {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.quote-text {
+  font-size: 1.4rem;
+  color: #34495e;
+  margin-bottom: 30px;
+  line-height: 1.6;
+  font-style: italic;
+  transition: all 0.3s ease;
+}
+
+.quote-button {
+  background-color: #007acc;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.quote-button:hover {
+  background-color: #005fa3;
+}
+#color {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color 0.5s ease;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: Arial, sans-serif;
+}
+
+.color-button {
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+  font-family: Arial, sans-serif;
+}
+
+.color-button:hover {
+  transform: scale(1.1);
+  background-color: #ddd;
+}
+
+.color-button:active {
+  background-color: #bbb;
+  color: white;
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.color-button.red:hover {
+  background-color: darkred;
+}
+
+.color-button.green:hover {
+  background-color: darkgreen;
+}
+
+.color-button.yellow:hover {
+  background-color: gold;
+}
+/* Rcolors.css */
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 0.3s ease;
+}
+
+.title {
+    font-size: 2.5em;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.color-button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.color-button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.color-button:active {
+    transform: scale(1);
+}
+
+/* count.css */
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden; /* Prevent overflow */
+}
+
+.counter-box {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 90%; /* Prevent box from becoming too wide */
+    width: 300px;
+    box-sizing: border-box; /* Ensure padding does not cause overflow */
+}
+
+.count-title {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.count-number {
+    font-size: 4em;
+    color: #2e7d32;
+    margin: 20px 0;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap on small screens */
+    justify-content: space-around;
+    gap: 10px; /* Add space between buttons */
+}
+
+.counter-btn {
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 5px;
+    flex: 1 1 100px; /* Allow buttons to resize flexibly */
+}
+
+.counter-btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.counter-btn:active {
+    transform: scale(1);
+}
+
+.reset-btn {
+    background-color: #f44336;
+}
+
+.reset-btn:hover {
+    background-color: #e53935;
+}
+
+@media (max-width: 600px) {
+    .count-title {
+        font-size: 2em;
+    }
+
+    .count-number {
+        font-size: 3em;
+    }
+
+    .counter-btn {
+        font-size: 1em;
+        padding: 8px 16px;
+    }
+}
+h1{
+  text-align: center;
+}

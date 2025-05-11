@@ -20,19 +20,18 @@ export default class Navbar extends Component {
     // console.log(this.state)
     return (
       <div>
-        <div style={{display:'flex',justifyContent:"space-between",alignItems:"center", 
-            backgroundColor:"lightblue",padding:'5%'}}>
-<h2>Logo</h2>
-<div>
-<button onClick={this.Signup}>Signup</button>
-<button onClick={this.Login}>Login</button>
+  <div className="header-container">
+    <h2 className="header-logo">Logo</h2>
+    <div className="auth-buttons">
+      <button onClick={this.Signup}>Signup</button>
+      <button onClick={this.Login}>Login</button>
+    </div>
+  </div>
 
+  {this.state.signup && <TestSignup />}
+  {this.state.Login && <TestLogin />}
 </div>
 
-        </div>
-        {this.state.signup && <TestSignup/>}
-        {this.state.Login&& <TestLogin/>}
-      </div>
     )
   }
 }

@@ -121,6 +121,10 @@ import "./App.css"
 import RandomQuote from './RandomQuote'
 import ThemeToggle from './ThemeToggle'
 import Navbar from './Navbar'
+import Colors from './Colors'
+import Count from './Count'
+import Rcolors from './Rcolors'
+import Rquotes from './Rquotes'
 export default class App extends Component {
   
   render() {
@@ -129,9 +133,21 @@ export default class App extends Component {
         
         
         <div>
+          <h1>Simple-Counter</h1>
+          <Count></Count>
+          <h1>BG Colors</h1>
+          <Colors></Colors>
+         <h1>Random Quotes</h1>
+          <Rquotes></Rquotes>
+          <h1>Random Bg Colors</h1>
+           <Rcolors></Rcolors>
+           <h1>Random BgColors And Quotes</h1>
       <RandomQuote></RandomQuote>
+      <h1>Signup and Login page</h1>
+         <Navbar></Navbar>
+         <h1>Dark&Light Theme Toggle</h1>
       <ThemeToggle></ThemeToggle>
-      <Navbar></Navbar>
+   <h1>Login And signup in one Page</h1>
           <Signup></Signup>
         
     

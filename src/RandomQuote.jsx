@@ -56,12 +56,16 @@ this.setState({color:this.state.color=hexa,quote:this.state.quote=RealQuote})
     
     return (
       <div>
-      <div style={{backgroundColor:this.state.color,padding:"10%"}}> 
-      <h1>{this.state.quote}</h1>
-     
-      </div> <br /> <br /> <br /> <br />
-       <button onClick={this.randomColor}>Click</button>
-       </div>
+      <div
+        className="quote-container"
+        style={{ backgroundColor: this.state.color }}
+      >
+        <div className="quote-text">{this.state.quote}</div>
+        <button className="quote-btn" onClick={this.randomColor}>
+          New Quote
+        </button>
+      </div>
+    </div>
     )
   }
 }
